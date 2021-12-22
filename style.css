@@ -1,0 +1,17 @@
+.outer {
+    display:flex;
+    flex-direction: column;
+    height:960px;
+    width:960px;
+    border:1px solid;
+}
+
+.inner {
+    display:flex;
+    flex: 1 0 auto;
+}
+
+.grid {
+    flex: 1 0 auto;
+    background-color:white;
+}
